@@ -19,7 +19,7 @@ f = np.zeros(pos_limit)
 
 
 # (1440, 2560, 3)
-def read_image(imn, imp='./example_images/'):
+def read_image(imn, imp='./stage_1/example_images/'):
     image = cv2.imread(imp + imn)
     return image
 
